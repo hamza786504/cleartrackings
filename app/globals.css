@@ -82,3 +82,22 @@ body.no-scroll {
   background-color: rgba(255,255,255,0.2);
   border-radius: 3px;
 }
+
+/* Reduced-motion safety for the homepage Tailwind animations */
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise,
+  .animate-marquee,
+  .animate-pulsering,
+  .animate-floatY,
+  .animate-floatYdelayed {
+    animation: none !important;
+  }
+  .animate-rise {
+    opacity: 1 !important;
+  }
+}
+
+
+
+
+

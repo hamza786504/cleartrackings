@@ -45,7 +45,7 @@ export default function Header({
               </div>
               <div className="de-flex-col">
                 <div className="menu_side_area">
-                  <Link href="/booking" className="btn-main fx-slide"><span>Book Appointment</span></Link>
+                  <Link href="https://portal.cleartrackings.com/doctor" className="btn-main fx-slide"><span>Sign Up</span></Link>
                   <span id="menu-btn"></span>
                 </div>
 
