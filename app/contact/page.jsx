@@ -46,7 +46,7 @@ export default function Contact() {
 
                 <div className="col-lg-6">
                   <div className="fw-bold text-dark"><i className="icofont-envelope me-2 id-color-2"></i>Send a Message</div>
-                  contact@dentiacare.com
+                  contact@cleartrackings.com
                 </div>
               </div>
 

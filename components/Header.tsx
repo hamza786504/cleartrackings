@@ -17,9 +17,9 @@ export default function Header({
                 {/* logo begin */}
                 <div id="logo">
                   <Link href="/">
-                    <img className="logo-main logo" src="/images/logo-white.webp" alt="" />
-                    <img className="logo-scroll logo-2" src="/images/logo-black.webp" alt="" />
-                    <img className="logo-mobile" src={isLightHeader ? "/images/logo-black.webp" : "/images/logo-white.webp"} alt="" />
+                    <img className="logo-main logo" src="/images/logo-white.PNG" alt="" />
+                    <img className="logo-scroll logo-2" src="/images/logo-white.png" alt="" />
+                    <img className="logo-mobile" src={isLightHeader ? "/images/logo-white.png" : "/images/logo-white.PNG"} alt="" />
                   </Link>
                 </div>
                 {/* logo end */}
@@ -45,7 +45,7 @@ export default function Header({
               </div>
               <div className="de-flex-col">
                 <div className="menu_side_area">
-                  <Link href="https://portal.cleartrackings.com/doctor" className="btn-main fx-slide"><span>Sign Up</span></Link>
+                  <Link href="https://portal.cleartrackings.com/doctor/signup" className="btn-main fx-slide"><span>Sign Up</span></Link>
                   <span id="menu-btn"></span>
                 </div>
 

@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
             </div>
 
             <div id="extra-content">
-                <img src="/images/logo-white.webp" className="w-150px" alt="" />
+                <img src="/images/logo-white.PNG" className="w-150px" alt="" />
 
                 <div className="spacer-30-line"></div>
 
@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
                 <div className="spacer-30-line"></div>
 
                 <h5>About Us</h5>
-                <p>At Dentia, we’re dedicated to providing high-quality, personalized dental care for patients of all ages. Our skilled team uses the latest technology to ensure comfortable, efficient treatments and beautiful, healthy smiles for life.</p>
+                <p>At Cleartrackings, we’re dedicated to providing high-quality, personalized dental care for patients of all ages. Our skilled team uses the latest technology to ensure comfortable, efficient treatments and beautiful, healthy smiles for life.</p>
 
                 <div className="social-icons">
                     <Link href="#"><i className="fa-brands fa-facebook-f"></i></Link>

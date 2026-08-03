@@ -148,7 +148,7 @@ const stats = [
 const testimonials = [
   { name: "Dr. Helena Cruz", role: "Orthodontist", img: "/images/testimonial/1.webp", text: "Professional communication, excellent treatment planning, and minimal revisions. ClearTrackings feels like an extension of our own clinic." },
   { name: "Dr. Marcus Webb", role: "Aligner Company", img: "/images/testimonial/2.webp", text: "We get predictable setups back fast, in our own timezone. The planning is clinically sound and genuinely revision-free." },
-  { name: "Dr. Aisha Rahman", role: "Orthodontist", img: "/images/testimonial/3.webp", text: "Doctor-centered planning that respects our philosophy. Fewer revisions, better outcomes — exactly what they promise." },
+  { name: "Dr. Aysha Rahman", role: "Orthodontist", img: "/women.jfif", text: "Doctor-centered planning that respects our philosophy. Fewer revisions, better outcomes — exactly what they promise." },
 ];
 
 const faqs = [
@@ -195,8 +195,9 @@ export default function Home() {
                 aims to deliver revision-free treatment plans.
               </p>
               <div className="opacity-0 animate-rise flex flex-wrap gap-[14px] mb-[38px]" style={{ animationDelay: "0.34s" }}>
-                <Link className="btn-main fx-slide" href="/contact"><span>Book a Free Consultation</span></Link>
+                <Link className="btn-main" href="https://portal.cleartrackings.com/doctor/signup"><span>Upload Your First Case</span></Link>
               </div>
+              
               <div className="opacity-0 animate-rise flex items-center gap-[14px]" style={{ animationDelay: "0.46s" }}>
                 <div className="flex">
                   <img src="/images/testimonial/1.webp" alt="" className="w-[38px] h-[38px] rounded-full border-2 border-[#0c2148] object-cover -ml-[10px] first:ml-0" />
@@ -231,9 +232,9 @@ export default function Home() {
       </section>
 
       {/* ============ THE CLEARTRACKINGS DIFFERENCE (marquee) ============ */}
-      <section className="bg-ctink text-white py-[30px] overflow-hidden">
-        <div className="container">
-          <div className="flex items-center overflow-hidden">
+      <section className="bg-ctink text-white py-[40px] overflow-hidden">
+        <div className="">
+          <div className="flex flex-col items-center gap-4 overflow-hidden">
             <span className={diffLabel}><Spark /> The ClearTrackings Difference</span>
             <div className="flex items-center w-max animate-marquee">
               {[...diffItems, ...diffItems].map((d, i) => (
@@ -242,6 +243,9 @@ export default function Home() {
                 </span>
               ))}
             </div>
+            <div className="mt-1">
+            <Link className="btn-main fx-slide" href="https://portal.cleartrackings.com/doctor/signup"><span>Upload Your First Case</span></Link>
+          </div>
           </div>
         </div>
       </section>
@@ -447,7 +451,7 @@ export default function Home() {
             </span>
           </div>
           <div className="mt-1">
-            <Link className="btn-main fx-slide" href="https://portal.cleartrackings.com/doctor"><span>Upload Your First Case</span></Link>
+            <Link className="btn-main fx-slide" href="https://portal.cleartrackings.com/doctor/signup"><span>Upload Your First Case</span></Link>
           </div>
         </div>
       </section>

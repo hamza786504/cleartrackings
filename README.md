@@ -1,4 +1,4 @@
-# Dentia Next.js Project
+# Cleartrackings Next.js Project
 
 This project has been converted from a static HTML template to a Next.js application.
 

@@ -1,6 +1,3 @@
- /* --------------------------------------------------
- * © Copyright 2024 - Dentia by on3step
-  * --------------------------------------------------*/
 (function($) {
 	'use strict';
      //$('.scrollbar-v,#selector,#buy-now,#back-to-top,.float-text').hide();

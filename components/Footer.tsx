@@ -6,17 +6,17 @@ export default function Footer() {
       <div className="container">
         <div className="row gx-5">
           <div className="col-lg-4 col-sm-6">
-            <img src="/images/logo-white.webp" className="logo-footer" alt="" />
+            <img src="/images/logo-white.png" className="logo-footer" alt="" />
             <div className="spacer-20"></div>
             <p>ClearTrackings is your dedicated digital treatment planning partner for clear aligner cases. We deliver clinically focused, revision-minimized setups designed around your timezone and your treatment philosophy.</p>
 
-            <div className="social-icons mb-sm-30">
+            {/* <div className="social-icons mb-sm-30">
               <Link href="#"><i className="fa-brands fa-facebook-f"></i></Link>
               <Link href="#"><i className="fa-brands fa-x-twitter"></i></Link>
               <Link href="#"><i className="fa-brands fa-whatsapp"></i></Link>
               <Link href="#"><i className="fa-brands fa-instagram"></i></Link>
               <Link href="#"><i className="fa-brands fa-youtube"></i></Link>
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-2 col-sm-6">
             <div className="widget">
@@ -50,7 +50,7 @@ export default function Footer() {
               <div className="spacer-20"></div>
 
               <div className="fw-bold text-white"><i className="icofont-envelope me-2 id-color"></i>Send a Message</div>
-              <Link href="/contact">hello@cleartrackings.com</Link>
+              <Link href="/contact">contact@cleartrackings.com</Link>
             </div>
           </div>
         </div>
@@ -63,10 +63,7 @@ export default function Footer() {
                 <div className="de-flex-col">
                   Copyright {new Date().getFullYear()} - ClearTrackings. All rights reserved.
                 </div>
-                <ul className="menu-simple">
-                  <li><Link href="#">Terms &amp; Conditions</Link></li>
-                  <li><Link href="#">Privacy Policy</Link></li>
-                </ul>
+               
               </div>
             </div>
           </div>
