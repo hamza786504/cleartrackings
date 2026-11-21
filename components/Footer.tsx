@@ -50,7 +50,7 @@ export default function Footer() {
               <div className="spacer-20"></div>
 
               <div className="fw-bold text-white"><i className="icofont-envelope me-2 id-color"></i>Send a Message</div>
-              <Link href="/contact">contact@cleartrackings.com</Link>
+              <Link href="/contact">info@cleartrackings.com</Link>
             </div>
           </div>
         </div>

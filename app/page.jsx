@@ -173,7 +173,7 @@ export default function Home() {
           <source src="/hero-video.mp4" type="video/mp4" />
         </video>
         <span
-          className="absolute inset-0 z-[1] bg-[radial-gradient(1100px_600px_at_85%_-10%,rgba(234,166,56,0.22),transparent_60%),radial-gradient(900px_620px_at_5%_110%,rgba(var(--primary-color-rgb),0.5),transparent_55%),linear-gradient(135deg,rgba(8,21,46,0.92),rgba(12,33,72,0.82)_55%,rgba(10,28,61,0.9))]"
+          className="absolute inset-0 z-[1] bg-[radial-gradient(1100px_600px_at_85%_-10%,rgba(234,166,56,0.15),transparent_60%),radial-gradient(900px_620px_at_5%_110%,rgba(var(--primary-color-rgb),0.3),transparent_55%),linear-gradient(135deg,rgba(8,21,46,0.55),rgba(12,33,72,0.45)_55%,rgba(10,28,61,0.55))]"
           aria-hidden="true"
         ></span>
 

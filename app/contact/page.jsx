@@ -35,18 +35,18 @@ export default function Contact() {
                 </div>
 
                 <div className="col-lg-6">
-                  <div className="fw-bold text-dark"><i className="icofont-location-pin me-2 id-color-2"></i>Clinic Location</div>
+                  <div className="fw-bold text-dark"><i className="icofont-location-pin me-2 id-color-2"></i>Office Location</div>
                   100 S Main St, New York, NY
                 </div>
 
                 <div className="col-lg-6">
                   <div className="fw-bold text-dark"><i className="icofont-phone me-2 id-color-2"></i>Call Us Directly</div>
-                  +1 123 456 789
+                  +92 321 3327614
                 </div>
 
                 <div className="col-lg-6">
                   <div className="fw-bold text-dark"><i className="icofont-envelope me-2 id-color-2"></i>Send a Message</div>
-                  contact@cleartrackings.com
+                  info@cleartrackings.com
                 </div>
               </div>
 

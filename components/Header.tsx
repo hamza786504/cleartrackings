@@ -30,9 +30,6 @@ export default function Header({
                     <Link className="menu-item" href="/">Home</Link>
                   </li>
                   <li>
-                    <Link className="menu-item" href="/">Service</Link>
-                  </li>
-                  <li>
                     <Link className="menu-item" href="/dentists">Dentists</Link>
                   </li>
                   <li>
