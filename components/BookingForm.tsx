@@ -14,6 +14,7 @@ export default function BookingForm() {
   const [errorMessage, setErrorMessage] = useState('');
   const today = useMemo(() => new Date().toISOString().split('T')[0], []);
 
+  
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus('sending');
