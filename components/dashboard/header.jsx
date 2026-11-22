@@ -21,8 +21,8 @@ export default function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/assets/logo-PQNkib9h.png"
-            alt="Kamfe Dental Lab logo"
+            src="/images/new-logo.jpeg"
+            alt="ClearTrackings logo"
             width={40}
             height={40}
             className="h-10 w-10"

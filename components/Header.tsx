@@ -17,9 +17,9 @@ export default function Header({
                 {/* logo begin */}
                 <div id="logo">
                   <Link href="/">
-                    <img className="logo-main logo" src="/images/logo-white.PNG" alt="" />
-                    <img className="logo-scroll logo-2" src="/images/logo-white.png" alt="" />
-                    <img className="logo-mobile" src={isLightHeader ? "/images/logo-white.png" : "/images/logo-white.PNG"} alt="" />
+                    <img className="logo-main logo" src="/images/new-logo.jpeg" alt="ClearTrackings" />
+                    <img className="logo-scroll logo-2" src="/images/new-logo.jpeg" alt="ClearTrackings" />
+                    <img className="logo-mobile" src="/images/new-logo.jpeg" alt="ClearTrackings" />
                   </Link>
                 </div>
                 {/* logo end */}

@@ -38,8 +38,8 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/assets/logo-PQNkib9h.png"
-                alt="Kamfe Dental Lab"
+                src="/images/new-logo.jpeg"
+                alt="ClearTrackings"
                 width={40}
                 height={40}
                 loading="lazy"

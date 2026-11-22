@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container">
         <div className="row gx-5">
           <div className="col-lg-4 col-sm-6">
-            <img src="/images/logo-white.png" className="logo-footer" alt="" />
+            <img src="/images/new-logo.jpeg" className="logo-footer" alt="ClearTrackings" />
             <div className="spacer-20"></div>
             <p>ClearTrackings is your dedicated digital treatment planning partner for clear aligner cases. We deliver clinically focused, revision-minimized setups designed around your timezone and your treatment philosophy.</p>
 
