@@ -1,6 +1,45 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Tailwind v4 — theme variables + utilities, NO preflight (keeps Bootstrap base styles intact).
+   Imported WITHOUT layer() so utilities are unlayered and win over Bootstrap via source order. */
+@import "tailwindcss/theme";
+@import "tailwindcss/utilities";
+
+/* ── Tailwind v4 theme: custom tokens from the old tailwind.config.mjs ── */
+@theme {
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+
+  --color-ctblue: var(--primary-color);
+  --color-ctamber: var(--secondary-color);
+  --color-ctink: #0a1730;
+  --color-ctline: #e7ecf5;
+  --color-ctmuted: #5b6b85;
+  --color-ctsoft: #f4f7fc;
+
+  --animate-marquee: marquee 38s linear infinite;
+  --animate-pulsering: pulsering 1.8s infinite;
+  --animate-floatY: floatY 4.5s ease-in-out infinite;
+  --animate-floatYdelayed: floatY 4.5s ease-in-out 0.8s infinite;
+  --animate-rise: rise 0.8s cubic-bezier(0.22,1,0.36,1) forwards;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+  @keyframes pulsering {
+    0%   { box-shadow: 0 0 0 0   rgba(74,210,120,0.5); }
+    70%  { box-shadow: 0 0 0 8px rgba(74,210,120,0);   }
+    100% { box-shadow: 0 0 0 0   rgba(74,210,120,0);   }
+  }
+  @keyframes floatY {
+    0%,100% { transform: translateY(0); }
+    50%     { transform: translateY(-12px); }
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(22px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+}
 
 :root {
   --background: #ffffff;
@@ -46,8 +85,6 @@ footer {
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 a {
